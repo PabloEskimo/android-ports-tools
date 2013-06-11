@@ -4,7 +4,7 @@ NDK_HOME=~/droid/android-ndk
 TOOLCHAIN=$NDK_HOME/toolchains/arm-linux-androideabi-4.6
 BIN=$TOOLCHAIN/prebuilt/linux-x86/bin
 GCC=$BIN/arm-linux-androideabi-gcc
-LIBGCC=$TOOLCHAIN/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.6.x-google/libgcc.a
+LIBGCC=$TOOLCHAIN/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.6/libgcc.a
 PLATFORM_DIR=$NDK_HOME/platforms/android-8
 if [ -n "$GOOGLE_PLATFORM" ]; then
   PLATFORM_DIR=$NDK_HOME/platforms/android-$GOOGLE_PLATFORM
